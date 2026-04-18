@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="RPG Lunaria - Bem-vindo ao universo de Lunaria. Conheça o cenário, regras e equipe.">
+  <title>RPG Lunaria | Boas-vindas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="hero section">
+    <nav class="topbar">
+      <a class="brand" href="#inicio">Lunaria</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-list">
+        <span class="sr-only">Abrir menu</span>
+        ☰
+      </button>
+      <ul id="menu-list" class="menu-list">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#regras">Regras</a></li>
+        <li><a href="#staff">Staff</a></li>
+      </ul>
+    </nav>
+
+    <div id="inicio" class="hero-content">
+      <article class="hero-card reveal show">
+        <p class="eyebrow">Servidor de RPG</p>
+        <h1>
+          <span class="logo-script">Lunaria</span>
+          <span class="logo-roleplay">Roleplay</span>
+        </h1>
+        <p class="lead">
+          Um mundo vivo, com histórias em evolução e personagens que realmente deixam marca na narrativa.
+        </p>
+        <div class="hero-actions">
+          <a class="cta" href="#sobre">Começar jornada</a>
+          <a class="ghost-cta" href="#regras">Ver regras</a>
+        </div>
+        <ul class="hero-highlights">
+          <li>Comunidade acolhedora</li>
+          <li>Narrativa contínua</li>
+          <li>Eventos frequentes</li>
+        </ul>
+      </article>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="section card reveal">
+      <h2>Sobre o RPG</h2>
+      <p>
+        Lunaria é um universo colaborativo onde roleplay, narrativa e comunidade caminham juntos. Nossa proposta é
+        oferecer um ambiente leve, criativo e organizado para quem quer viver uma aventura contínua.
+      </p>
+    </section>
+
+    <section id="regras" class="section card reveal">
+      <div class="section-head">
+        <h2>Resumo das Regras</h2>
+        <button id="toggle-rules" class="link-button" type="button" aria-expanded="true">
+          Mostrar menos
+        </button>
+      </div>
+      <div id="rules-content" class="rules-list">
+        <article class="rule-item">
+          <h3>1. Respeito em primeiro lugar</h3>
+          <p>Sem ataques pessoais, preconceito ou desrespeito com jogadores e staff.</p>
+        </article>
+        <article class="rule-item">
+          <h3>2. Coerência de personagem</h3>
+          <p>Evite metagame e powergame. A evolução do personagem deve ser construída em jogo.</p>
+        </article>
+        <article class="rule-item">
+          <h3>3. Priorize o roleplay</h3>
+          <p>Conflitos e decisões devem surgir da narrativa, não de vantagens externas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="staff" class="section card reveal">
+      <div class="section-head">
+        <h2>Staff</h2>
+        <span class="badge">Área reservada</span>
+      </div>
+      <p class="staff-note">
+        Equipe oficial de Lunaria. Os próximos slots já estão reservados para os novos membros.
+      </p>
+      <div id="staff-grid" class="staff-grid">
+        <article class="staff-card">
+          <img class="staff-photo" src="assets/images/Gui.jpeg" alt="Gui - Staff Lunaria" loading="lazy">
+          <h3>Gui</h3>
+          <p class="staff-quote">"A sabedoria prevalece quando as palavras são poucas."</p>
+        </article>
+
+        <article class="staff-card">
+          <img class="staff-photo" src="assets/images/Erin.jpeg" alt="Erin - Staff Lunaria" loading="lazy">
+          <h3>Erin</h3>
+          <p class="staff-quote">"Cada desafio é uma nova oportunidade de evoluir."</p>
+        </article>
+
+        <article class="staff-card">
+          <img class="staff-photo" src="assets/images/corvo.jpeg" alt="Corvo - Staff Lunaria" loading="lazy">
+          <h3>Corvo</h3>
+          <p class="staff-quote">"As cartas nunca mentem."</p>
+        </article>
+
+        <article class="staff-card">
+          <img class="staff-photo" src="assets/images/saito.jpg" alt="Saito - Staff Lunaria" loading="lazy">
+          <h3>Saito</h3>
+          <p class="staff-quote">“Se for pra errar… prefiro errar no drink mais forte.”</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="section footer">
+    <small>© <span id="year"></span> RPG Lunaria. Todos os direitos reservados.</small>
+  </footer>
+
+  <script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
